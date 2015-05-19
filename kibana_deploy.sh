@@ -2,7 +2,7 @@
 
 
 app_id=$1
-server="ehost"
+server="localhost"
 
 echo "Start provisioning for private instance for:"$app_id 
 
