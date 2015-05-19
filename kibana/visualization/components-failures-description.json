@@ -1,0 +1,9 @@
+{
+    "title": "Database and Cross-App Calls Failures",
+    "visState": "{\"type\":\"markdown\",\"params\":{\"markdown\":\"#### **Validate failures of database and cross-app calls, check most often failed calls and add filters to get related info in the log**.\"},\"aggs\":[],\"listeners\":{}}",
+    "description": "Proceed with caution\nModifying objects is for advanced users only. Object properties are not validated and invalid objects could cause errors, data loss, or worse. Unless someone with intimate knowledge of the code told you to be in here, you probably shouldnt be.",
+    "version": 1,
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+    }
+  }

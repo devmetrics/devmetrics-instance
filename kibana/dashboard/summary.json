@@ -1,0 +1,28 @@
+{
+  "title": "Summary Dashboard",
+  "hits": 0,
+  "description": "",
+  "panelsJSON": "[
+  {\"col\":1,\"id\":\"sessions-for-period\",\"row\":1,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},
+  {\"col\":3,\"id\":\"session-time-line\",\"row\":1,\"size_x\":4,\"size_y\":2,\"type\":\"visualization\"},
+  {\"col\":7,\"id\":\"average-responce-time\",\"row\":1,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},
+  {\"col\":9,\"id\":\"http-errors-for-period\",\"row\":1,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},
+  {\"col\":11,\"id\":\"http-requests-for-period\",\"row\":1,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},
+ 
+  {\"id\":\"summary-description\",\"type\":\"visualization\",\"size_x\":12,\"size_y\":1,\"col\":1,\"row\":3},
+  {\"col\":1,\"id\":\"server-response-time\",\"row\":4,\"size_x\":7,\"size_y\":4,\"type\":\"visualization\"},
+  {\"col\":8,\"id\":\"http-server-throughput\",\"row\":4,\"size_x\":5,\"size_y\":2,\"type\":\"visualization\"},
+  {\"col\":8,\"id\":\"http-errors\",\"row\":6,\"size_x\":5,\"size_y\":2,\"type\":\"visualization\"},
+  
+  {\"col\":1,\"id\":\"components-description\",\"row\":8,\"size_x\":12,\"size_y\":1,\"type\":\"visualization\"},
+ 
+  {\"col\":1,\"id\":\"components-consumption\",\"row\":9,\"size_x\":7,\"size_y\":4,\"type\":\"visualization\"},
+  {\"col\":8,\"id\":\"component-throughput\",\"row\":9,\"size_x\":5,\"size_y\":2,\"type\":\"visualization\"},
+  {\"col\":8,\"id\":\"component-errors\",\"row\":11,\"size_x\":5,\"size_y\":2,\"type\":\"visualization\"}
+  ]",
+
+  "version": 1,
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Failures Dashboard",
+  "hits": 0,
+  "description": "",
+  "panelsJSON": "[
+  {\"col\":1,\"id\":\"http-errors-for-period\",\"row\":1,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},
+  {\"col\":3,\"id\":\"http-error-histogram\",\"row\":1,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},
+  {\"col\":5,\"id\":\"http-server-throughput\",\"row\":1,\"size_x\":4,\"size_y\":2,\"type\":\"visualization\"},
+  {\"col\":9,\"id\":\"server-response-time\",\"row\":1,\"size_x\":4,\"size_y\":2,\"type\":\"visualization\"},
+  
+  {\"col\":1,\"id\":\"navigate\",\"row\":3,\"size_x\":12,\"size_y\":1,\"type\":\"visualization\"},
+  {\"col\":1,\"id\":\"top-http-failors\",\"row\":4,\"size_x\":4,\"size_y\":4,\"type\":\"visualization\"},
+  {\"col\":5,\"id\":\"http-errors\",\"row\":4,\"size_x\":8,\"size_y\":4,\"type\":\"visualization\"},
+ 
+  {\"col\":1,\"id\":\"components-failures-description\",\"row\":8,\"size_x\":12,\"size_y\":1,\"type\":\"visualization\"},
+  {\"col\":1,\"id\":\"top-components-failors\",\"row\":9,\"size_x\":4,\"size_y\":4,\"type\":\"visualization\"},
+  {\"col\":5,\"id\":\"component-errors\",\"row\":9,\"size_x\":8,\"size_y\":4,\"type\":\"visualization\"},
+ 
+  {\"col\":1,\"id\":\"log-area-description\",\"row\":13,\"size_x\":12,\"size_y\":1,\"type\":\"visualization\"},
+ 
+  {\"col\":1,\"id\":\"event-log-types\",\"row\":14,\"size_x\":4,\"size_y\":2,\"type\":\"visualization\"},
+  {\"col\":5,\"id\":\"event-log\",\"row\":14,\"size_x\":8,\"size_y\":4,\"type\":\"search\"},
+  {\"col\":1,\"id\":\"hosts\",\"row\":16,\"size_x\":4,\"size_y\":2,\"type\":\"visualization\"}
+  
+  ]",
+
+  "version": 1,
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+  }
+}

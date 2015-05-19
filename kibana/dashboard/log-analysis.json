@@ -1,0 +1,19 @@
+{
+  "title": "Log Analysis Dashboard",
+  "hits": 0,
+  "description": "",
+  "panelsJSON": "[
+  {\"col\":1,\"row\":1,\"id\":\"log-events-for-period\",\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},
+  {\"col\":3,\"row\":1,\"id\":\"event-severity\",\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},
+  {\"col\":5,\"row\":1,\"id\":\"http-server-throughput\",\"size_x\":4,\"size_y\":2,\"type\":\"visualization\"},
+  {\"col\":9,\"row\":1,\"id\":\"log-timeline\",\"size_x\":4,\"size_y\":2,\"type\":\"visualization\"},
+  {\"col\":1,\"row\":3,\"id\":\"navigate\",\"size_x\":12,\"size_y\":1,\"type\":\"visualization\"},
+  {\"col\":1,\"row\":4,\"id\":\"event-log-types\",\"size_x\":4,\"size_y\":2,\"type\":\"visualization\"},
+  {\"col\":5,\"row\":4,\"id\":\"event-log\",\"size_x\":8,\"size_y\":4,\"type\":\"search\"},
+  {\"col\":1,\"id\":\"host-load\",\"row\":6,\"size_x\":4,\"size_y\":2,\"type\":\"visualization\"}
+  ]",
+  "version": 1,
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+  }
+}

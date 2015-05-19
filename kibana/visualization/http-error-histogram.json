@@ -1,0 +1,10 @@
+{
+
+    "title": "HTTP Error histogram",
+    "visState": "{\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"mode\":\"grouped\",\"defaultYExtents\":true,\"spyPerPage\":10},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"status_code\",\"exclude\":{\"pattern\":\"\"},\"size\":6,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+    "description": "",
+    "version": 1,
+        "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"$$pattern$$\",\"query\":{\"query_string\":{\"query\":\"(event_type:http_request) AND (status_code: /[4,5][0-9][0-9]/)\",\"analyze_wildcard\":true}},\"filter\":[]}"
+        }
+}
