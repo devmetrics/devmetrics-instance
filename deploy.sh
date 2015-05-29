@@ -4,6 +4,7 @@
 
 git pull
 
+
 echo
 echo "Sources has been updated from git:https://vladimir_devmetrics@bitbucket.org/devmetrics/service.git"
 echo " if there are no repository, clone it: git clone https://vladimir_devmetrics@bitbucket.org/devmetrics/service.git "
@@ -30,3 +31,7 @@ then
     sudo service logstash restart
     sudo service nginx restart
 fi
+
+echo "update cron tasks"
+bash ./cron/create_cron_task.sh 
+
