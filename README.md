@@ -19,7 +19,7 @@ bash user_generate.sh dm_user
 5. Save password for access instance  
 
 # HTTPS support
-1. Copy certificate and primary key to folder devmetrics-instance/cert
+1. Copy certificate and private key to folder devmetrics-instance/cert
 2. Replace nginx configuration: 
 ```
 sudo rm /etc/nginx/sites-enabled/kibana4
